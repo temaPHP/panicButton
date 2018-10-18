@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+
+    <title>PRINTER PANICK BUTTON</title>
+  </head>
+  <body>
+    <div id='MainPage' class='app_page'>
+        <div class="container">
+                <button id='panicButton' type="button" class="btn btn-danger btn-lg btn-block panic_button">CLICK HERE IF THE PRINTER IS BROKEN</button>
+        </div>   
+            
+    </div>
+    <div id='SecondPage' class='app_page'>
+        <div class="container">
+            <div class="row rowheader2">
+                <div class="col-sm vfill">
+                    <div class="alert alert-warning page-header-row" role="alert">
+                            What is the error?
+                    </div>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="col-sm vfill">
+                    <button type="button" id='inkButton' class="btn btn-warning btn-block sm-button">Out of Ink</button>
+                </div>
+                <div class="col-sm vfill">
+                    <button type="button" id='paperButton' class="btn btn-warning btn-block sm-button">Out OF Paper</button>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="col-sm vfill">
+                    <button type="button" id='otherButton' class="btn btn-warning btn-block sm-button">Other Error</button>
+                </div>
+                <div class="col-sm vfill">
+                    <button type="button" class="btn btn-primary btn-block sm-button resetButton">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='LoadingPage' class='app_page'>
+        <div class="container">
+                <button type="button" class="btn btn-primary btn-lg btn-block loading-button">Loading, Please Wait</button>
+        </div>        
+    </div>
+    <div id='FinalPage' class='app_page'>
+        <div class="container">
+            <div class="row row2-final">
+                <div class="col-sm vfill">
+                    <div class="alert alert-danger row-final" role="alert">
+                            <strong>THIS PRINTER IS NOT FUNCTIONING </strong>
+                            A service ticket has been submitted.
+                    </div>
+                </div>
+            </div>
+            <div class="row row2-final">
+                <div class="col-sm vfill">
+                    <div class="alert alert-dark row-final" role="alert">
+                            The following ERROR was submitted to Service Now:
+                            <strong id='errorReturned'>OUT OF INK</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="row row2-final">
+                <div class="col-sm vfill">
+                    <div class="alert alert-dark row-final" role="alert">
+                            SERVICE NOW TICKET: 
+                            <strong id='ticketReturned'>INC00000001</strong>
+                    </div>
+                </div>
+            </div>    
+            <div class="row row2-final">
+                <div class="col-sm vfill">
+                    <button type="button" class="btn btn-primary btn-block sm-button resetButton">Reset</button>
+                </div>
+            </div>    
+        </div>    
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

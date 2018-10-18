@@ -1,0 +1,56 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+}
+.app_page{
+    height: 100%;
+}
+.page-header-row{
+    text-align: center;
+    height:100%;
+}
+.app_page .container{
+    margin: auto;
+    height:100%
+}
+.panic_button{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height:80%;
+    font-size: xx-large;
+}
+.sm-button{
+    margin-bottom: 10px;
+    height:100%;
+    font-size: large;
+}
+.rowheader2{
+    height:10%;
+}
+.row2{
+    height:40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.vfill{
+    height:100%;
+}
+.loading-button{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height:80%;
+    font-size: xx-large;
+}
+.row2-final{
+    height:20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.row-final{
+    height:100%;
+}
