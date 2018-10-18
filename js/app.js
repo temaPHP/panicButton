@@ -25,6 +25,7 @@ $(function() {
 function statusLoop(){
     url = "snowticketsearch/?incident=" + globalIncident;
     if((globalIncident !== null)&&(statusSearchActive == true)){
+        $("#finalAlert").toggleClass("finalBlink");
         $.ajax({
             url: url,
         })

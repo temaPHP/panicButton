@@ -14,7 +14,7 @@
   <body>
     <div id='MainPage' class='app_page'>
         <div class="container">
-                <button id='panicButton' type="button" class="btn btn-danger btn-lg btn-block panic_button">CLICK HERE IF THE PRINTER IS BROKEN</button>
+                <button id='panicButton' type="button" class="btn btn-danger btn-lg btn-block panic_button">CLICK HERE IF <BR>THE PRINTER IS BROKEN</button>
         </div>   
             
     </div>
@@ -54,25 +54,18 @@
         <div class="container">
             <div class="row row2-final">
                 <div class="col-sm vfill">
-                    <div class="alert alert-danger row-final" role="alert">
+                    <div class="alert alert-danger row-final" role="alert" id='finalAlert'>
                             <strong>THIS PRINTER IS NOT FUNCTIONING </strong>
+                            <BR>
                             A service ticket has been submitted.
-                    </div>
-                </div>
-            </div>
-            <div class="row row2-final">
-                <div class="col-sm vfill">
-                    <div class="alert alert-dark row-final" role="alert">
+                            <BR><BR>
                             The following ERROR was submitted to Service Now:
+                            <BR>
                             <strong id='errorReturned'>OUT OF INK</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="row row2-final">
-                <div class="col-sm vfill">
-                    <div class="alert alert-dark row-final" role="alert">
-                            SERVICE NOW TICKET: 
+                            <BR><BR>
+                            Service Now Incident ID:<BR> 
                             <strong id='ticketReturned'>INC00000001</strong>
+                            <BR>
                     </div>
                 </div>
             </div>    

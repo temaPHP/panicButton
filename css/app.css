@@ -20,13 +20,25 @@ body{
     top: 50%;
     transform: translateY(-50%);
     height:80%;
+    font-size: xx-large;
 }
 .sm-button{
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+    height:50px;
 }
 .loading-button{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     height:80%;
+}
+.row-final{
+    text-align: center;
+    margin-top: 10px;    
+}
+.finalBlink{
+    background-color: darkred;
+    color:white;
 }
