@@ -34,7 +34,7 @@ function otherError(){
 }
 
 function sendRequest(error){
-    url = "http://v70pjs01t/devs/kraisor/printerpanicbutton/snowticket/?error=" + error;
+    url = "snowticket/?error=" + error;
     $.ajax({
         url: url,
     })
